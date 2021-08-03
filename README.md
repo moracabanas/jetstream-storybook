@@ -58,9 +58,11 @@
 
 ## Run Storybook
 
-`sail up`
-`sail npm install`
-`sail npm run storybook`
+`sail up`  
+
+`sail npm install`  
+
+`sail npm run storybook`  
 
 ## About Laravel
 
