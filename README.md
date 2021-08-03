@@ -61,6 +61,16 @@
 ![ItsOfficialGIF](https://user-images.githubusercontent.com/4382333/128091858-ec100da8-aca3-495e-a0b8-82b435f727c6.gif)
 
 
+## Basic scaffolding  
+
+`npx degit moracabanas/jetstream-storybook new-project`  
+
+`cd new-project`  
+
+`cp .env.exanple .env`
+
+`composer install`
+
 ## Run Storybook
 
 `sail up`  
