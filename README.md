@@ -56,6 +56,11 @@
   </a>
 </p>
 
+# ⚠️ SORRY YOU NEED DOCKER ⚠️
+
+![ItsOfficialGIF](https://user-images.githubusercontent.com/4382333/128091858-ec100da8-aca3-495e-a0b8-82b435f727c6.gif)
+
+
 ## Run Storybook
 
 `sail up`  
@@ -63,6 +68,13 @@
 `sail npm install`  
 
 `sail npm run storybook`  
+
+## Run Laravel
+
+`sail npm run dev`  
+
+`sail php artisan migrate`  
+
 
 ## About Laravel
 
