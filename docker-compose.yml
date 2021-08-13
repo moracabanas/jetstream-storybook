@@ -11,6 +11,7 @@ services:
         ports:
             - '${APP_PORT:-80}:80'
             - '6006:6006' #mapping Storybook port
+            - '3000:3000' #mappipng browsersync port
         environment:
             WWWUSER: '${WWWUSER}'
             LARAVEL_SAIL: 1
