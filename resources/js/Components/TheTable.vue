@@ -13,7 +13,7 @@
                     <thead class="bg-gray-800 text-gray-500">
                         <tr>
                             <th class="p-3">Brand</th>
-                            <th class="p-3 text-left">Category2</th>
+                            <th class="p-3 text-left">Category7</th>
                             <th class="p-3 text-left">Price</th>
                             <th class="p-3 text-left">Status</th>
                             <th class="p-3 text-left">Action</th>
@@ -182,11 +182,11 @@
 
 <script>
 export default {
-    props:{
-        tableItems:{
+    props: {
+        tableItems: {
             type: Array,
-            required: true
-        }
+            required: true,
+        },
     },
     setup() {},
 }
