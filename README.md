@@ -63,27 +63,35 @@
 
 ## Basic scaffolding  
 
-`npx degit moracabanas/jetstream-storybook new-project`  
+`npx degit moracabanas/jetstream-storybook new-project` <- replace *new-project* with **your desired project name**
 
 `cd new-project`  
 
-`cp .env.exanple .env`
+`cp .env.example .env`
 
 `composer install`
 
-## Run Storybook
+`sail up`
 
-`sail up`  
+`sail artisan key:generate`
 
-`sail npm install`  
+Now you app is ready to start developement.  
 
-`sail npm run storybook`  
+Make sure to `git init` for tracking it.
 
 ## Run Laravel
 
 `sail npm run dev`  
 
-`sail php artisan migrate`  
+`sail php artisan migrate` 
+
+## Run Storybook
+
+`sail up` (this makes sure your stack is already running on Docker locally)
+
+`sail npm install`  
+
+`sail npm run storybook`   
 
 
 ## About Laravel
