@@ -1,0 +1,5 @@
+/* https://blog.jacobhq.xyz/posts/storybook-tailwind  */
+/* ./.storybook/assets/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

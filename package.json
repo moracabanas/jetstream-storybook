@@ -9,7 +9,8 @@
         "prod": "npm run production",
         "production": "mix --production",
         "storybook": "start-storybook -p 6006",
-        "build-storybook": "build-storybook"
+        "build-css": "postcss ./.storybook/assets/globals.css -o ./.storybook/assets/app.css",
+        "build-storybook": "npm run build-css && build-storybook -s ./.storybook/assets"
     },
     "devDependencies": {
         "@babel/core": "^7.14.8",
@@ -38,6 +39,7 @@
         "vue-loader": "^16.4.1"
     },
     "dependencies": {
-        "@storybook/addon-postcss": "^2.0.0"
+        "@storybook/addon-postcss": "^2.0.0",
+        "postcss-cli": "^8.3.1"
     }
 }
