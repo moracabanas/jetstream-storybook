@@ -56,11 +56,16 @@
   </a>
 </p>
 
-# ⚠️ SORRY YOU NEED DOCKER ⚠️
+<div align="center">
+<br>
+    <h1>⚠️ SORRY YOU NEED DOCKER ⚠️</h1>
 
 ![ItsOfficialGIF](https://user-images.githubusercontent.com/4382333/128091858-ec100da8-aca3-495e-a0b8-82b435f727c6.gif)
-
-
+</div>
+  
+ 
+   
+    
 ## Basic scaffolding  
 
 `npx degit moracabanas/jetstream-storybook new-project` <- replace *new-project* with **your desired project name**
