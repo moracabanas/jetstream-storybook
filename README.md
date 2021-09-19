@@ -81,6 +81,8 @@ Make sure to `git init` for tracking it.
 
 ## Run Laravel
 
+`sail npm install`
+
 `sail npm run dev`  
 
 `sail php artisan migrate` 
